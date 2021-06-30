@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://teal-ptarmigan-gd1f3uqy.ws-us08.gitpod.io",
+    "address": "https://purple-orangutan-eq2agrd6.ws-us08.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -124,7 +124,7 @@
         {
             "slug": "02.2-maping-array-of-objects-to-li",
             "title": "02.2-maping-array-of-objects-to-li",
-            "done": false,
+            "done": true,
             "path": "exercises/02.2-maping-array-of-objects-to-li",
             "translations": [
                 "es",
@@ -135,7 +135,7 @@
         {
             "slug": "03-render-with-functions",
             "title": "03-render-with-functions",
-            "done": false,
+            "done": true,
             "path": "exercises/03-render-with-functions",
             "translations": [
                 "es",
@@ -146,7 +146,7 @@
         {
             "slug": "03.1-your-first-component",
             "title": "03.1-your-first-component",
-            "done": false,
+            "done": true,
             "path": "exercises/03.1-your-first-component",
             "translations": [
                 "es",
@@ -157,7 +157,7 @@
         {
             "slug": "03.2-a-real-component",
             "title": "03.2-a-real-component",
-            "done": false,
+            "done": true,
             "path": "exercises/03.2-a-real-component",
             "translations": [
                 "es",
