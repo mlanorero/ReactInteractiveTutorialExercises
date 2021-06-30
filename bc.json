@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://olive-skunk-pff1j7t9.ws-us08.gitpod.io",
+    "address": "https://blue-tarantula-uuidhozp.ws-us08.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -47,7 +47,7 @@
         {
             "slug": "01.1-hello-world",
             "title": "01.1-hello-world",
-            "done": false,
+            "done": true,
             "path": "exercises/01.1-hello-world",
             "translations": [
                 "es",
@@ -58,7 +58,7 @@
         {
             "slug": "01.2-hello-jsx",
             "title": "01.2-hello-jsx",
-            "done": false,
+            "done": true,
             "path": "exercises/01.2-hello-jsx",
             "translations": [
                 "es",
