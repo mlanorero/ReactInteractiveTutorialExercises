@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://blue-tarantula-uuidhozp.ws-us08.gitpod.io",
+    "address": "https://teal-ptarmigan-gd1f3uqy.ws-us08.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -69,7 +69,7 @@
         {
             "slug": "01.3-rendering-from-objects",
             "title": "01.3-rendering-from-objects",
-            "done": false,
+            "done": true,
             "path": "exercises/01.3-rendering-from-objects",
             "translations": [
                 "es",
@@ -80,7 +80,7 @@
         {
             "slug": "01.4-building-a-layout",
             "title": "01.4-building-a-layout",
-            "done": false,
+            "done": true,
             "path": "exercises/01.4-building-a-layout",
             "translations": [
                 "es",
@@ -91,7 +91,7 @@
         {
             "slug": "01.5-building-html-from-arrays",
             "title": "01.5-building-html-from-arrays",
-            "done": false,
+            "done": true,
             "path": "exercises/01.5-building-html-from-arrays",
             "translations": [
                 "es",
@@ -102,7 +102,7 @@
         {
             "slug": "02-maping-array-to-li",
             "title": "02-maping-array-to-li",
-            "done": false,
+            "done": true,
             "path": "exercises/02-maping-array-to-li",
             "translations": [
                 "es",
@@ -113,7 +113,7 @@
         {
             "slug": "02.1-maping-array-objects-to-li",
             "title": "02.1-maping-array-objects-to-li",
-            "done": false,
+            "done": true,
             "path": "exercises/02.1-maping-array-objects-to-li",
             "translations": [
                 "es",
