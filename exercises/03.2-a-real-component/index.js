@@ -5,11 +5,7 @@ import ReactDOM from "react-dom";
 export const BootstrapCard = () => {
 	return (
 		<div className="card m-5">
-			<img
-				alt="Card image cap"
-				className="card-img-top"
-				src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/"
-			/>
+			<img alt="Card image cap" className="card-img-top" src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/" />
 			<div className="card-body">
 				<h5 className="card-title">Bob Dylan</h5>
 				<p className="card-text">
