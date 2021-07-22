@@ -6,7 +6,7 @@ const BootstrapCard = props => {
 	// 1) replace the hard-coded image, description, link, etc. With their property variable.
 	return (
 		<div className="card m-5">
-			<img className={props.imageUrl} src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/" alt="Card image cap" />
+			<img alt="Card image cap" className="card-img-top" src={props.imageUrl} />
 			<div className="card-body">
 				<h5 className="card-title">{props.title}</h5>
 				<p className="card-text">{props.description}</p>
@@ -19,7 +19,7 @@ const BootstrapCard = props => {
 };
 BootstrapCard.propTypes = {
 	title: PropType.string,
-	imageUrl: PropType.image,
+	imageUrl: PropType.string,
 	description: PropType.string,
 	buttonUrl: PropType.string,
 	buttonLabel: PropType.string
@@ -28,4 +28,4 @@ BootstrapCard.propTypes = {
 };
 
 // 3) Use ReactDOM to add the component into then DOM element #myDiv
-ReactDOM.render(<BootstrapCard title="Bob Dylan" imageURL="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/" description= "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter." buttonURL="https://en.wikipedia.org/wiki/Bob_Dylan" buttonLabel="Go to wikipedia" />, document.querySelector("#myDiv"));
+ReactDOM.render(<BootstrapCard title="Bob Dylan" imageUrl="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/" description= "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter." buttonURL="https://en.wikipedia.org/wiki/Bob_Dylan" buttonLabel="Go to wikipedia" />, document.querySelector("#myDiv"));

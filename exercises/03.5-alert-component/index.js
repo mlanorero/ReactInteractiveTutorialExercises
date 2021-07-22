@@ -9,7 +9,7 @@ import PropType from "prop-types";
  const Alert = props => {
 	//here you have to return expected html using the properties being passed to the component
 	return(
-        <div class="alert alert-danger" role="alert">
+        <div className="alert alert-danger" role="alert">
             {props.text}
         </div>
 	)

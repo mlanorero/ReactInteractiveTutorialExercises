@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://jade-badger-40fw1upu.ws-us11.gitpod.io",
+    "address": "https://bronze-mosquito-6j9wk4fz.ws-us10.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -179,7 +179,7 @@
         {
             "slug": "03.4-jumbotron",
             "title": "03.4-jumbotron",
-            "done": false,
+            "done": true,
             "path": "exercises/03.4-jumbotron",
             "translations": [
                 "es",
@@ -190,7 +190,7 @@
         {
             "slug": "03.5-alert-component",
             "title": "03.5-alert-component",
-            "done": false,
+            "done": true,
             "path": "exercises/03.5-alert-component",
             "translations": [
                 "es",
@@ -234,7 +234,7 @@
         {
             "slug": "05-adding-styles",
             "title": "05-adding-styles",
-            "done": false,
+            "done": true,
             "path": "exercises/05-adding-styles",
             "translations": [
                 "es",
@@ -245,7 +245,7 @@
         {
             "slug": "05.1-second-styles",
             "title": "05.1-second-styles",
-            "done": false,
+            "done": true,
             "path": "exercises/05.1-second-styles",
             "translations": [
                 "es",
@@ -256,7 +256,7 @@
         {
             "slug": "06-listening-to-events",
             "title": "06-listening-to-events",
-            "done": false,
+            "done": true,
             "path": "exercises/06-listening-to-events",
             "translations": [
                 "es",
