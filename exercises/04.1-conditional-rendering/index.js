@@ -2,22 +2,25 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
-const Alert = props => {
-	//your component here
-	if(colorClasses ===  props.red){
-		return(
-			<div className="alert alert-danger" role="alert">
-				{props.red}
-			</div>
-		);
-	} else {
-		return(
-			<div className="alert alert-warning" role="alert">
-				{props.orange}
-			</div>
-		)
-	}
+const colorClasses = {
+    'red': 'alert-danger',
+    'orange': 'alert-warning'
+}
 
+const Alert = props => {
+	//add the condition inside this function
+	if (props.show === false) {
+		<div className={`alert ${colorClasses[props.color]}`} role="alert">
+			{props.text}
+		</div>
+	} else {
+		// retorna aquí el componente html
+		return (
+			<div className={`alert ${colorClasses[props.color]}`} role="alert">
+				{props.text}
+		  	</div>
+		);
+	}
 };
 Alert.propTypes = {
 	color: PropTypes.string,

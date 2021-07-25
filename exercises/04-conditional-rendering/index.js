@@ -4,25 +4,18 @@ import PropTypes from "prop-types";
 
 const Alert = props => {
 	//add the condition inside this function
-	if(props.show === false){
-        return(
-			<div className="alert alert-danger" role="alert">
-				{props.color}
-			</div>
-			
-		);
-    }
-    else{
-        // retorna aquí el componente html
+	if (props.show === false) {
+		return null;
+	} else {
+		// retorna aquí el componente html
 		return (
 			<div className="alert alert-danger" role="alert">
 				{props.text}
 			</div>
 		);
-    }
+	}
 };
 Alert.propTypes = {
-	color: PropTypes.string,
 	text: PropTypes.string
 };
 
